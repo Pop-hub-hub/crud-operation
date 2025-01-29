@@ -78,6 +78,8 @@ submit.addEventListener("click", function() {
     if (products.length > 0) {
         deleteAllBtn.style.display = "block";
     }
+    // إعادة تحميل الصفحة
+    location.reload();
 });
 
 function addProductToTable(product) {
